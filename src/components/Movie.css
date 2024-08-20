@@ -1,0 +1,28 @@
+.image{
+    overflow: hidden;
+    position: relative;
+    max-width: 230px;
+    width: 100%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.movie .image img:hover {
+    transition: all .15s linear;
+    transform: scale(1.04)
+}
+
+.movie .movie__title {
+    margin: 0;
+    font-weight: 300;
+}
+
+.movie .movie__title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+}
+
+.movie .movie__genres {
+    font-size: 14px;
+}

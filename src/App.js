@@ -5,9 +5,11 @@ import {
 } from "react-router-dom";
 import Home from './routes/Home'
 import Detail from './routes/Detail'
+import "./App.css"
 
 function App() {
-  return <Router>
+  return (
+      <Router>
     <Switch>
       <Route path="/hello">
         <h1>hello</h1>
@@ -19,6 +21,7 @@ function App() {
       <Home />
       </Route>
     </Switch>
-  </Router>;
+  </Router>
+  );
 }
 export default App;
